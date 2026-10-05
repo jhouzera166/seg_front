@@ -1,0 +1,57 @@
+/* 1. Reset padrão para limpar margens dos navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Seu código atualizado */
+body {
+    background-color: #000727;
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* Adicionado para que o texto padrão seja branco */
+    line-height: 1.6; /* Melhora o espaçamento entre as linhas */
+    padding: 20px;
+}
+
+/* Seu parágrafo atualizado */
+p {
+    color: #04a74d;
+    font-size: 16px;
+    margin-bottom: 15px; /* Espaço para o parágrafo não colar no próximo elemento */
+}
+
+/* 2. Estilização para Títulos */
+h1, h2, h3 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    border-bottom: 2px solid #04a74d; /* Linha verde charmosa abaixo do título principal */
+    padding-bottom: 10px;
+}
+
+/* 3. Estrutura para centralizar o conteúdo da página */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #000d3d; /* Um azul um pouco mais claro que o fundo para dar contraste */
+    padding: 30px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+/* 4. Estilo para Links e Botões interativos */
+a {
+    color: #04a74d;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Efeito suave na transição de cor */
+}
+
+a:hover {
+    color: #026b31; /* Cor verde mais escura quando passa o mouse */
+    text-decoration: underline;
+}
